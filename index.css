@@ -171,7 +171,7 @@ div a span:hover {
 }
 @media screen and (max-width:450px) {
 	.welcome {
-		font-size:8.5vw;
+		font-size:8vw;
 		margin-top:-200px;
 		margin-bottom:-100px;
 	}
