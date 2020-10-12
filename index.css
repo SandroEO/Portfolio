@@ -305,6 +305,7 @@ i {
 }
 [data-aos^=flip][data-aos^=flip] {
 	backface-visibility:hidden;
+	-webkit-backface-visibility: hidden;
 	transition-property:transform;
 }
 [data-aos=flip-right] {
