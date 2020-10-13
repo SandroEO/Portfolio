@@ -74,7 +74,7 @@ h3 {
 	display:block;
 	border-radius:70%;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
 	img#my-image {
 		width:50%;
 		display:block;
@@ -105,7 +105,7 @@ h3 {
 	font-size:1.2rem;
 	font-family:'Righteous',cursive;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
 	.box1 {
 		width:100%;
 		margin:20px auto;
@@ -184,13 +184,13 @@ div a span:hover {
 		margin-bottom:-100px;
 	}
 }
-@media (min-width:451px) and (max-width:749px) {
+@media (min-width:451px) and (max-width:850px) {
 	.welcome {
 		font-size:400%;
 		margin-top:20px;
 	}
 }
-@media (min-width:750px) and (max-width:1050px) {
+@media (min-width:851px) and (max-width:1050px) {
 	.welcome {
 		font-size:305%;
 		margin-top:20px;
@@ -231,7 +231,7 @@ div a span:hover {
 	font-family:'Fredoka One',cursive;
 	color:wheat;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
 	#tech {
 		margin-top:570px;
 	}
@@ -250,7 +250,7 @@ div a span:hover {
 	margin-left:-15px;
 	padding:3rem;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
 	.row1 {
 		margin-bottom:-80px;
 	}
