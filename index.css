@@ -1,5 +1,9 @@
 html,body {
-	height:100%;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 7px;
+        overflow-x: hidden; 
 }
 html {
 	scroll-behavior:smooth;
@@ -7,12 +11,16 @@ html {
 	margin:auto;
 	text-align:center;
 	overflow-x:hidden;
+	min-height: 100%;
 }
 body {
 	text-align:center;
 	background-color:#708090;
 	display:table-cell;
 	vertical-align:middle;
+	margin: 0px;
+        min-height: 100%;
+        width: 100%;
 }
 .navbar {
 	position:fixed !important;
