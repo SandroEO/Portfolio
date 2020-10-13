@@ -448,6 +448,11 @@ div a .fab:hover {
 	height:260px;
 	border:3px solid wheat;
 }
+@media screen and (max-width:1050px) {
+	.calculator {
+		margin-bottom:70px;
+	}
+}
 .img__description3 {
 	position:absolute;
 	top:0;
@@ -456,7 +461,7 @@ div a .fab:hover {
 	right:0;
 	background:rgba(112,128,144,0.82);
 	color:wheat;
-	font-size:33px;
+	font-size:30px;
 	visibility:hidden;
 	opacity:0;
 	font-family:'Fredoka One',cursive;
@@ -466,10 +471,19 @@ div a .fab:hover {
 	visibility:visible;
 	opacity:1;
 }
-.more {
-	width:500px;
-	height:260px;
-	margin:auto;
+.more a {
+	display: block;
+    margin: 100px auto;
+}
+.more a span {
+	color: white;
+	border: 2px solid white;
+	font-family: 'Righteous',cursive !important;
+}
+.more a span:hover {
+	color: #778899;
+	border: 2px solid #778899;
+	background-color: wheat;
 }
 button {
 	left:30%;
