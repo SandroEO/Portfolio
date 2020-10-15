@@ -1,9 +1,9 @@
 html,body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 7px;
-        overflow-x: hidden; 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 7px;
+    overflow-x: hidden; 
 }
 html {
 	scroll-behavior:smooth;
@@ -114,7 +114,7 @@ h3 {
 @media (min-width:801px) and (max-width:1050px) {
 	.box1 {
 		width:100%;
-		margin:20px auto;
+		margin:20px auto 100px;
 	}
 }
 @media (min-width:1050px) and (max-width:1200px) {
@@ -198,7 +198,8 @@ div a span:hover {
 }
 @media (min-width:851px) and (max-width:1050px) {
 	.welcome {
-		font-size:305%;
+		font-size:270%;
+		-webkit-font-size: 270%;
 		margin-top:20px;
 	}
 }
@@ -264,6 +265,11 @@ div a span:hover {
 @media screen and (max-width:800px) {
 	.row1 {
 		margin-bottom:-80px;
+	}
+}
+@media (min-width:801px) and (max-width:1050px) {
+	.row1 {
+		margin-bottom: -82px;
 	}
 }
 .row2 {
