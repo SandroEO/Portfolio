@@ -191,12 +191,12 @@ div a span:hover {
 }
 @media (min-width:451px) and (max-width:850px) {
 	.welcome {
-		font-size:300%;
-		-webkit-font-size: 300%;
+		font-size:270%;
+		-webkit-font-size: 270%;
 		margin-top:20px;
 	}
 }
-@media (min-width:851px) and (max-width:1050px) {
+a (min-width:851px) and (max-width:1050px) {
 	.welcome {
 		font-size:270%;
 		-webkit-font-size: 270%;
