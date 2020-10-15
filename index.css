@@ -1,9 +1,9 @@
 html,body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 7px;
-        overflow-x: hidden; 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 7px;
+    overflow-x: hidden; 
 }
 html {
 	scroll-behavior:smooth;
@@ -115,11 +115,6 @@ h3 {
 	.box1 {
 		width:100%;
 		margin:20px auto;
-	}
-}
-@media (min-width:1050px) and (max-width:1200px) {
-	.box1 {
-		margin: 0 auto;
 	}
 }
 /* .sb5:before{content:"";width:0px;height:0px;position:absolute;border-left:10px solid black;border-right:10px solid transparent;border-top:10px solid black;border-bottom:10px solid transparent;right:-20px;top:6px;}.sb5:after{content:"";width:0px;height:0px;position:absolute;border-left:7px solid #fff;border-right:7px solid transparent;border-top:7px solid #fff;border-bottom:7px solid transparent;right:-11px;top: 10px;}*/
@@ -371,11 +366,6 @@ i {
 		margin-bottom:100px;
 	}
 }
-@media (min-width:1050px) and (max-width:1200px) {
-	.service {
-		margin: 90px auto;
-	}
-}
 .service img {
 	width:500px;
 	height:260px;
@@ -460,10 +450,6 @@ div a .fab:hover {
 	.projects-row2 {
 		margin-bottom:150px;
 	}
-}
-@media (min-width:1050px) and (max-width:1200px) {
-    .projects-row2 {
-    margin: 0 auto;
 }
 .calculator {
 	width:500px;
