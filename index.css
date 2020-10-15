@@ -1,9 +1,9 @@
 html,body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 7px;
-        overflow-x: hidden; 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 7px;
+    overflow-x: hidden; 
 }
 html {
 	scroll-behavior:smooth;
@@ -19,8 +19,8 @@ body {
 	display:table-cell;
 	vertical-align:middle;
 	margin: 0px;
-        min-height: 100%;
-        width: 100%;
+    min-height: 100%;
+    width: 100%;
 }
 .navbar {
 	position:fixed !important;
@@ -74,7 +74,7 @@ h3 {
 	display:block;
 	border-radius:70%;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:800px) {
 	img#my-image {
 		width:50%;
 		display:block;
@@ -105,7 +105,7 @@ h3 {
 	font-size:1.2rem;
 	font-family:'Righteous',cursive;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:800px) {
 	.box1 {
 		width:100%;
 		margin:20px auto;
@@ -115,6 +115,11 @@ h3 {
 	.box1 {
 		width:100%;
 		margin:20px auto;
+	}
+}
+@media (min-width:1050px) and (max-width:1200px) {
+	.box1 {
+		margin: 0 auto;
 	}
 }
 /* .sb5:before{content:"";width:0px;height:0px;position:absolute;border-left:10px solid black;border-right:10px solid transparent;border-top:10px solid black;border-bottom:10px solid transparent;right:-20px;top:6px;}.sb5:after{content:"";width:0px;height:0px;position:absolute;border-left:7px solid #fff;border-right:7px solid transparent;border-top:7px solid #fff;border-bottom:7px solid transparent;right:-11px;top: 10px;}*/
@@ -186,8 +191,8 @@ div a span:hover {
 }
 @media (min-width:451px) and (max-width:850px) {
 	.welcome {
-		font-size:275%;
-		-webkit-font-size: 275%;
+		font-size:300%;
+		-webkit-font-size: 300%;
 		margin-top:20px;
 	}
 }
@@ -237,7 +242,7 @@ div a span:hover {
 	font-family:'Fredoka One',cursive;
 	color:wheat;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:800px) {
 	#tech {
 		margin-top:570px;
 	}
@@ -256,7 +261,7 @@ div a span:hover {
 	margin-left:-15px;
 	padding:3rem;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:800px) {
 	.row1 {
 		margin-bottom:-80px;
 	}
@@ -359,11 +364,16 @@ i {
 	width:500px;
 	height:260px;
 	position:relative;
-	margin:auto;
+	margin: 0 auto;
 }
 @media screen and (max-width:1050px) {
 	.service {
 		margin-bottom:100px;
+	}
+}
+@media (min-width:1050px) and (max-width:1200px) {
+	.service {
+		margin: 90px auto;
 	}
 }
 .service img {
@@ -408,7 +418,7 @@ div a .fab:hover {
 	width:500px;
 	height:260px;
 	position:relative;
-	margin:auto;
+	margin: 0 auto;
 }
 @media screen and (max-width:1050px) {
 	.quotes {
@@ -451,11 +461,15 @@ div a .fab:hover {
 		margin-bottom:150px;
 	}
 }
+@media (min-width:1050px) and (max-width:1200px) {
+    .projects-row2 {
+    margin: 0 auto;
+}
 .calculator {
 	width:500px;
 	height:260px;
 	position:relative;
-	margin:auto;
+	margin: 0 auto;
 }
 .calculator img {
 	width:500px;
